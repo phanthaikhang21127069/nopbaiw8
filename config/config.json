@@ -1,41 +1,29 @@
 {
   "development": {
-    "username": "baonguyen",
-    "password": "KTS99vtFvNEd1rF1jGSRA3bgD0nXk0Nx",
-    "database": "testdb_baonguyen",
-    "host": "dpg-clh20pfjc5ks73eisg60-a.singapore-postgres.render.com",
+    "username": "ttbhanh",
+    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
+    "database": "tuandb",
+    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "dialectOptions":{
-      "ssl":{
-        "require":true,
-        "rejectUnauthorized":false
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
       }
     }
   },
   "test": {
-    "username": "baonguyen",
-    "password": "KTS99vtFvNEd1rF1jGSRA3bgD0nXk0Nx",
-    "database": "testdb_baonguyen",
-    "host": "dpg-clh20pfjc5ks73eisg60-a.singapore-postgres.render.com",
-    "dialect": "postgres",
-    "dialectOptions":{
-      "ssl":{
-        "require":true,
-        "rejectUnauthorized":false
-      }
-    }
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
   "production": {
-    "username": "baonguyen",
-    "password": "KTS99vtFvNEd1rF1jGSRA3bgD0nXk0Nx",
-    "database": "testdb_baonguyen",
-    "host": "dpg-clh20pfjc5ks73eisg60-a.singapore-postgres.render.com",
-    "dialect": "postgres",
-    "dialectOptions":{
-      "ssl":{
-        "require":true,
-        "rejectUnauthorized":false
-      }
-    }
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
